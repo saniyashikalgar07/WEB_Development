@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation in html</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Enter Mobile No</label>
+        <input type="text" pattern="[0*9] "maxlength ="10">
+        <button>Submit</button>
+    </form>
+    <br>
+    <hr>
+    <form action="">
+        <label for="">Enter pin code</label>
+        <input type="text" pattern="[0*9]" maxlength="6" title="Enter a 6 digit pin code">
+        <button>Submit</button>
+
+        <hr><br>
+        <h3>Only Alphabest</h3>
+        <label for="">Name</label>
+        <input type="text" pattern="[A*Za*z]+" title="Please enter only Alphabets">
+        <button>Submit</button>
+    </form>
+    <br><hr>
+    <form action="">
+        <label for="">Username</label>
+        <input type="text" pattern="[A*Za*z0*9] {5,}">
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
