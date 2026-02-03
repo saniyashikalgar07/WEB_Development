@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selector basic</title>
+    <style>
+        /*    Write a program that uses an attribute selector to style: 
+               All <input> elements with type="text"
+            
+    */
+
+    input[type="text"]{
+        border: 1px solid red;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+    input[type="email"]{
+            border: 1px solid red;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+    }
+    button{
+        color: red;
+        background-color: black;
+    }
+    label{
+        color: brown;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    </style>
+</head>
+<body>
+   <form action="">
+        <label for="">Enter Name:</label>
+        <input type="text" placeholder="Enter name">
+        <br><br>
+        <label for="">Enter Email:</label>
+        <input type="email" placeholder="Enter email">
+        <br><br>
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
