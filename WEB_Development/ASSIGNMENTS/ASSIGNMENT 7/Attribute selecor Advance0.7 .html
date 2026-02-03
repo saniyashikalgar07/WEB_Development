@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATTRIBUTE SELECTER HTML</title>
+</head>
+<style>
+    /* Create a program that styles: 
+      All links starting with https 
+      (Hint: use ^= attribute selector) */
+
+      a[href^=https]{
+        color: red;
+        background-color: rgb(228, 213, 124);
+        font-size: 30px;
+        font-weight: bold;
+      }
+</style>
+<body>
+    <a href="https://www.youtube.com/">Youtube</a>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.whatsapp.com/">whatsapp</a>
+</body>
+</html>
